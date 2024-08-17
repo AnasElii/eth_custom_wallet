@@ -23,10 +23,9 @@ Clone the Repository:
 ```bash
 git clone https://github.com/yourusername/custom-erc20-wallet.git
 cd custom-erc20-wallet
-Install Dependencies:
 ```
 
-Install package:
+Install Dependencies:
 ```bash
 npm install
 ```
