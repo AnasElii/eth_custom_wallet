@@ -4,7 +4,7 @@ This project is a custom cryptocurrency wallet designed to interact with the ERC
 
 ## Features
 - Account Management: Generate new wallets or import existing ones using private keys.
-- Token Interactions: Send, receive, and check balances of tBoy tokens.
+- Token Interactions: Send, receive, and check balances of ERC-20 tokens.
 - Testnet Support: Interact with the Sepolia testnet to test functionality before deploying to the mainnet.
 - Secure Storage: Implement best practices for securing private keys.
 - User Interface: Basic console-based UI for interacting with the wallet.
@@ -15,7 +15,7 @@ Before you begin, ensure you have met the following requirements:
 - Node.js: Version 14 or higher.
 - npm: Installed along with Node.js.
 - Infura Account: Required to connect to the Ethereum network.
-- tBoy Token Contract: Deployed on the Sepolia testnet.
+- ERC-20 Token Contract: Deployed on the Sepolia testnet.
 
 ## Installation
 Clone the Repository:
@@ -94,7 +94,7 @@ async function transferTokens(recipientAddress, amount) {
 transferTokens('recipient_address', '10.0'); // Example: Transfer 10 tokens
 ```
 ## Testing on Sepolia
-Deploy your tBoy token contract to the Sepolia testnet.
+Deploy your ERC-20 token contract to the Sepolia testnet.
 Use the wallet to interact with the contract, testing all the functionalities before moving to the mainnet.
 
 ## Security
