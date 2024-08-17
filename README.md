@@ -1,6 +1,6 @@
 # Custom ERC-20 Wallet
 ## Overview
-This project is a custom cryptocurrency wallet designed to interact with the ERC-20 token on the Ethereum blockchain. It allows users to securely send, receive, and withdraw tBoy tokens without relying on external wallet providers like MetaMask. The wallet is built using ethers.js and is currently configured to operate on the Sepolia testnet for development and testing.
+This project is a custom cryptocurrency wallet designed to interact with the ERC-20 token on the Ethereum blockchain. It allows users to securely send, receive, and withdraw ERC-20 tokens without relying on external wallet providers like MetaMask. The wallet is built using ethers.js and is currently configured to operate on the Sepolia testnet for development and testing.
 
 ## Features
 - Account Management: Generate new wallets or import existing ones using private keys.
